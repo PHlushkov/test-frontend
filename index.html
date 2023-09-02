@@ -1,0 +1,1291 @@
+<!DOCTYPE html>
+<html lang="es" class="">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <title>
+        Lorem Ipsum
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+    <script src="./ostx_files/jquery.min.js"></script>
+
+    <link rel="icon" type="image/x-icon" href="./ostx_files/apple-touch-icon-180x180.png">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="./ostx_files/order.css" />
+
+    <!-- Header/Footer Styles -->
+    <link rel="stylesheet" href="./ostx_files/header-footer.css" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;800&display=swap" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;1000&family=PT+Sans:ital,wght@1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <style>
+        @font-face {
+            font-family: "Isidora";
+            src: local("Isidora Light"), local("Isidora-Light"),
+                url("fonts/Isidora-Light.woff2") format("woff2");
+            unicode-range: U+000-5FF;
+            font-weight: 300;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: "Isidora";
+            src: local("Isidora Medium"), local("Isidora-Medium"),
+                url("fonts/Isidora-Medium.woff2") format("woff2");
+            unicode-range: U+000-5FF;
+            font-weight: 500;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: "Isidora";
+            src: local("Isidora Bold"), local("Isidora-Bold"),
+                url("fonts/Isidora-Bold.woff2") format("woff2");
+            unicode-range: U+000-5FF;
+            font-weight: 700;
+            font-style: bold;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: "icomoon";
+            src: url("ostx_files/icomoon2.woff") format("woff");
+            font-weight: 400;
+            font-style: normal;
+            font-display: swap;
+        }
+        @font-face {
+            font-family: 'icomoon';
+            src: url("ostx_files/icomoon.eot");
+            src: url("ostx_files/icomoon.eot") format("embedded-opentype"), url("ostx_files/icomoon.ttf") format("truetype"), url("ostx_files/icomoon.woff") format("woff"), url("ostx_files/icomoon.svg") format("svg");
+            font-weight: normal;
+            font-style: normal;
+        }
+        .a3mod_player {
+            padding-top: 0 !important;
+        }
+        .adom-button {
+            width: 400px;
+            max-width: 90%;
+            margin: 0 auto 30px;
+            text-align: center;
+            padding: 20px 40px;
+            border: 1px solid rgb(129, 13, 0);
+            background-color: red;
+            color: #fff;
+            border-radius: 50px;
+            display: block;
+            font-weight: 700;
+            box-shadow: 0 4px 15px 0 rgb(129 150 160 / 45%);
+            border-radius: 5px;
+            text-transform: uppercase;
+        }
+        .adom-button:hover {
+            background-color: rgb(200, 0, 0);
+            color: #fff;
+        }
+        .tet {
+            padding: 10px;
+            border-left: 7px solid #8903ab;
+            border-top: none;
+            border-right: none;
+            border-bottom: none;
+            font-style: italic;
+        }
+        .autor-area {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            padding: 15px;
+            background-color: #d0d0d0;
+            border-radius: 22px;
+        }
+
+        .autor-img {
+            width: 100%;
+        }
+
+        @media (max-width: 600px) {
+            .autor-area {
+                flex-direction: column;
+            }
+        }
+    </style>
+
+    <!-- Carga de Favicon -->
+
+    <link rel="icon" sizes="16x16 32x32 64x64" href="./ostx_files/apple-touch-icon-180x180.png" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./ostx_files/form-toolong.css" />
+    <link rel="stylesheet" href="./ostx_files/css2.css" />
+    <link rel="stylesheet" href="./ostx_files/style_a3com.4147c6cb54db3b3546cb.css" />
+    <link type="text/css" rel="stylesheet" charset="UTF-8" href="./ostx_files/m=el_main_css" />
+
+    <script>
+        function displayDate() {
+            var today = new Date()
+            var options = { year: "numeric", month: "long", day: "numeric" }
+            var userLanguage = navigator.language || navigator.userLanguage
+            var date = today.toLocaleDateString(userLanguage, options)
+            document.getElementById("date").innerHTML = date
+        }
+    </script>
+</head>
+
+<body class="pagina-interior programas el-hormiguero invitados" data-new-gr-c-s-check-loaded="14.1107.0"
+    data-gr-ext-installed="" style="overflow: auto" onload="displayDate()">
+    <div id="fbody" class="fbody Home" data-config="third-menu">
+        <!-- ==== HEADER ==== -->
+        <header class="header">
+            <div class="my__container">
+                <div class="header__body">
+                    <a href="" class="header__logo">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="-3.361 -2.831 611 185"><path fill="none" stroke="#E00" d="M148.22 145.854h452.43"></path><path d="M380.945 115.864l-3.906 15.315h-.057l-3.658-15.316h-7.328l-6.01 23.54h5.437l3.836-15.044h.058l3.834 15.043h7.238l5.996-23.54M349.505 115.864c-5.105 7.895-10.155 15.86-15.493 23.535h6.803l4.075-6.796h7.273l.398 6.795h6.588c-.783-7.82-1.73-15.823-2.19-23.536h-7.453zm-1.877 11.81l4.142-6.745h.06l.407 6.743h-4.61zM394.098 122.188c.322-1.238 2.122-1.674 3.08-1.697 1.835-.04 2.913.46 4.1 1.202 0 0 1.186-4.656 1.21-4.89-1.93-1.08-4.037-1.353-5.59-1.353-5.526 0-8.398 3.31-8.93 6.1-1.048 5.48 5.483 8.52 4.773 11.044-.523 1.883-2.315 1.98-3.336 1.98-1.743 0-3.39-.562-4.85-1.386l-1.314 5.47c1.747.612 4.276 1.16 6.295 1.165 6.443.012 8.498-2.904 9.173-6.117 1.165-5.498-5.39-8.47-4.61-11.518zM331.162 122.188c.313-1.238 2.124-1.674 3.08-1.697 1.834-.04 2.912.46 4.103 1.202 0 0 1.52-4.482 1.546-4.713-2.056-1.314-4.377-1.53-5.928-1.53-5.524 0-8.4 3.31-8.93 6.1-1.047 5.482 5.48 8.52 4.774 11.045-.53 1.883-2.323 1.98-3.34 1.98-1.733 0-3.39-.562-4.843-1.386l-1.316 5.47c1.74.61 4.28 1.158 6.288 1.164 6.452.012 8.5-2.904 9.18-6.117 1.166-5.5-5.395-8.4-4.613-11.52zM491.79 131.14h-.055l-3.655-15.307h-7.33l-6.005 23.52h5.438l3.84-15.03h.054l3.818 15.03h7.247l6.002-23.52h-5.44M422.63 120.874h8.958l1.3-5.05h-15.16l-6.024 23.53h6.21l2.376-9.308h7.51L429.08 125h-7.5M520.84 115.83h-17.5l-1.292 5.034h5.66l-4.725 18.483h6.21l4.72-18.483h5.63M523.02 115.83l-6.004 23.536h6.204l6.008-23.537M543.256 130.038l1.283-5.043h-7.758l1.057-4.13h9.81l1.293-5.036H532.92l-6.013 23.536h16.018l1.3-5.064h-9.817l1.09-4.264M582.988 130.038l1.29-5.047-7.948.005 1.06-4.13h9.807l1.29-5.036h-16.01l-6.018 23.528h16.016l1.292-5.06h-9.81l1.09-4.26M466.694 115.454c-7 0-12.9 4.377-14.89 12.164-2 7.828 1.668 12.205 8.68 12.205 6.59 0 12.587-3.885 14.778-11.527 2.3-8.283-1.56-12.842-8.568-12.842zm2.516 12.164c-1.017 3.744-3.883 7.05-7.417 7.05-3.75 0-4.72-3.384-3.792-7.01.924-3.638 3.634-7.058 7.388-7.058 3.608 0 4.693 3.235 3.822 7.018zM595.892 122.15c.347-1.226 2.12-1.677 3.08-1.696 1.834-.043 2.914.463 4.095 1.197 0 0 1.193-4.65 1.22-4.886-1.934-1.082-4.04-1.348-5.596-1.348-5.52 0-8.398 3.303-8.93 6.094-1.038 5.484 5.483 8.52 4.775 11.045-.53 1.887-2.313 1.977-3.344 1.977-1.73 0-3.383-.557-4.833-1.38l-1.32 5.47c1.74.61 4.277 1.158 6.287 1.162 6.448.012 8.506-2.9 9.18-6.117 1.166-5.498-5.463-8.525-4.612-11.518zM445.2 129.02c3.14-.573 5.578-3.368 6.25-6.017 1.194-4.656-.18-7.162-5.373-7.174h-10.522l-6.002 23.536h5.93l4.742-18.586h3.046c.894 0 2.808 0 2.173 2.5-.473 1.86-1.917 3.09-4.64 3.045h-.17l-2.026.004 2.156 13.036h6.675s-2.166-9.847-2.24-10.345zM561.728 129.01c3.14-.575 5.58-3.37 6.254-6.02 1.19-4.655-.183-7.16-5.384-7.16h-10.52l-6.002 23.534h5.928l4.753-18.596h3.045c.887 0 2.807 0 2.17 2.504-.476 1.857-1.91 3.086-4.64 3.043h-.17l-2.024.002 2.16 13.04h6.673s-2.166-9.848-2.242-10.346zM236.236 139.364l1.29-5.037h-9.812l1.09-4.262h8.003l1.282-5.043h-8l1.056-4.128h9.81l1.287-5.045-16.013-.005-6.005 23.52M194.715 139.366l1.285-5.04h-9.81l1.09-4.264h7.92l1.287-5.043h-7.925l1.055-4.132h9.814l1.288-5.04h-16.01l-6.01 23.518M249.645 139.753c1.13 0 4.23-.365 5.99-.668l1.492-5.445c-1.83.5-3.71.953-6.16.953-3.82 0-4.772-3.375-3.83-7.01.807-3.146 3.668-7.057 8.506-7.057 1.608 0 3.055.424 4.474.95l1.346-5.282c-1.456-.543-3.806-.814-5.538-.814-7.076 0-13.037 4.373-15.05 12.164-2.015 7.832 1.693 12.21 8.77 12.21zM264.916 139.366l6.006-23.52h-6.207l-6.002 23.52M160.55 122.552h.06l-.333 16.812 5.288.006 8.383-16.857h.058l-4.29 16.853h5.255l5.994-23.512h-8.24l-7.32 14.774h-.056l.396-14.774h-8.733l-6.004 23.512h5.25M274.062 139.364l3.833-15.015h.062l3.82 15.016h7.238l6-23.517h-5.432l-3.91 15.303h-.055l-3.657-15.304-7.303-.005-6.038 23.52M220.88 127.587c2.538-9.947-2.852-11.742-5.75-11.742h-11.146l-6 23.525h9.84c6.797-.006 11.307-4.94 13.057-11.783zm-6.207 0c-.887 3.453-3.344 6.738-6.776 6.738h-2.684l3.427-13.443h3.102c3.306 0 4.05 2.334 2.93 6.705zM302.74 122.188c.317-1.238 2.125-1.674 3.077-1.695 1.832-.04 2.916.457 4.1 1.195 0 0 1.184-4.648 1.212-4.885-1.925-1.086-4.04-1.35-5.588-1.35-5.53 0-8.403 3.31-8.94 6.096-1.037 5.48 5.492 8.52 4.783 11.044-.53 1.89-2.32 1.98-3.342 1.98-1.737 0-3.39-.562-4.843-1.384l-1.317 5.47c1.74.61 4.28 1.157 6.294 1.163 6.447.012 8.493-2.904 9.176-6.11 1.166-5.51-5.408-8.423-4.614-11.525z"></path><path fill="#E00" d="M63.49 152.384c1.718-1.012 5.584-3.076 6.045-3.355.74-.442 1.18-.386 1.205-.157.093.877.067 2.725 1.187 3.102.322.107 1.16-.285 1.31-.06.407.604.435.495.542.673.128.22.687.094.806.207.31.28-.02.652.16.85.29.31.83-.197 1.104-.14.5.097.625.66.543 1.022-.14.596.226 1.05 1.2.242.508-.427.542-.208.98-.427.26-.13.69-.115.875.07.188.182.48.504.752.605.406.15.842-.004 1.09.1.382.15.392.705.716.752.318.047.646-.578.854-.387.58.547-.49 1.49.25 1.697.404.11.566-.207.888-.254.322-.05.51-.43.788-.43.273 0 .48.328.828.137.287-.156.516-.27.78-.43.392-.234.797-.12 1.023-.305.274-.22.065-.826.875-.678.835.156-.132.92.234 1.23.282.238.97.008 1.192-.068.454-.148.867-.7 1.02-1.084.186-.46.878-1.984 1.152-2.393.278-.42.97-2.033 1.336-2.588.372-.547 1.846-2.902 1.984-3.268.137-.374.668-.878.803-1.155.143-.277.44-1.2.81-1.94.37-.733 1.382-2.21 1.478-2.485.093-.277.872-2.074 1.15-2.627.276-.553 1.247-1.82 1.48-2.42.228-.6.87-1.87.87-1.87l.69-1.147s.23-.51.554-1.2c.326-.692 1.293-2.167 1.57-2.675.275-.507 1.06-1.567 1.06-1.567l.6-1.334.46-1.015s.37-1.2.554-1.523c.183-.32.827-1.105 1.015-1.52.184-.418.736-2.264 1.016-2.813.274-.556 1.61-2.948 1.75-3.413.136-.46 1.52-2.95 1.66-3.453.136-.512.184-1.2.364-1.527.188-.318.74-1.152.832-1.383.09-.23 1.014-2.44 1.152-2.764.14-.32.23-.924.6-.924s.633.398.876.738c.276.395.83.324 1.153.645.322.323 1.38 1.478 1.432 1.66.04.185.64.23.778.415.14.186.232.648.416.738.184.092 1.107.734 1.288 1.014.187.275.415.834.647 1.014.228.187 1.288.835 1.425 1.108.14.275 1.662 2.12 1.846 2.44.188.323.325.878.46 1.11.14.23.69.553.742.783.04.23.09 1.062.23 1.292.135.23.78.506.873.738.093.23.37 1.104.51 1.244.138.135.41.324.502.502.096.188.19 1.205.326 1.385.135.187.598.97.735 1.294.14.318.604.92.692 1.15.09.23.137 1.156.23 1.473.094.324.51 1.016.553 1.205.048.182.14.734.14.734l.37.877s.414.873.414 1.2c0 .32.09.688.137.917.05.234.416.826.416 1.014s.508 1.248.508 1.248-.096.922 0 1.152c.09.23.505.873.505 1.104s-.136.834-.136.834l.23.37s-.14.503-.047.687-.092.603.047.737c.136.14.506 1.113.506 1.113-.28.324-19.508 9.217-27.75 13.06-11.877 5.545-36.568 17.928-39.196 19.447-2.624 1.52-4.282 2.396-4.92 2.07-1.458-.754-3.83-2.86-5.455-7.377-1.372-3.81-1.378-6.977-1.265-8.566.09-1.218-.005-2.128 1.84-3.192.644-.368 4.03-2.275 5.752-3.288M29.295 84.29c.095.208.503.164.794.24.164.04.47.333.658.355.19.022.465-.073.56 0 .304.23.244.535.428.81.185.276.276.737.552.83.278.094.647.05.74.323.092.276-.113.704.092 1.06.523.91.068 3.455.53 3.645.458.184 1.85-.266 2.327-.69.492-.444 1.19-1.218 1.566-1.386.716-.322 2.104-1.063 2.767-1.198.662-.137 1.005-1.232 1.658-1.292.656-.06.416-.577.878-.76.46-.187 1.327-.656 1.603-.38.123.124.384.48.81.643.508.196 1.045-.057 1.136.498.138.825 1.384.092 1.384.092s1.53-.994 2.176-1.27c.644-.275 2.36-1.172 2.36-1.172s1.356-.7 1.917-.97c20.77-9.974 37.145-15.474 52.18-21.296 23.412-9.068 63.926-19.465 71.63-21.388.81-.203 2.606-.48 2.83-.61.218-.13.583-.218.767-.958.188-.735-.367-1.75-.367-2.12s.828-1.842.92-2.492c.094-.64-.553-.732-.553-.732s.084-.8-.092-1.384c-.17-.585-1.2-1.11-1.38-1.57-.19-.46 0-1.842-.19-2.304-.18-.463-.737-.83-.737-.83s.136-.244 0-.644c-.126-.4-.55-.372-.55-.372s.166-.88.094-1.197c-.076-.32-.553-.552-.553-.552s-.556-.37-.556-.735c0-.37-.09-.648-.365-.83-.28-.187-1.11-.187-1.386-.28-.277-.09-.92-.276-1.38-.183-.464.09-.647.463-1.94.736-1.29.278-1.842 0-2.393.095-.558.092-1.192.474-1.845.64-6.268 1.637-35.03 10.006-56.238 17.983-19.71 7.41-43.2 18.094-57.527 25.534-10.837 5.633-16.634 8.89-19.03 10.38-1.236.762-2.598 1.665-2.8 2.023-.325.56-.703 1.416-1.413 1.52-.87.123-.75.6-1.023.67-.324.077-.697.43-.97.69-.273.26-.166.622-.07.83M118.834 71.428c-.96-.575-.63-1.114.483-1.59 6.86-2.934 24.182-9.107 34.108-12.263 8.48-2.688 31.898-10.315 38.432-12.196 1.563-.447 2.197-.43 2.893.305 1.766 1.877 3.486 4.408 5.105 7.55 1.498 2.898 2.785 7.09 3.295 9.724.37 1.93-.516 2.26-1.564 2.73-7.25 3.242-25.133 11.074-32.568 14.585-7.266 3.434-20.558 9.823-25.063 12.09-1.9.955-1.586 1.35-2.878-.125-.392-.443-1.02-1.475-1.196-1.752-.187-.28-2.676-2.49-2.954-2.766-.274-.28-1.658-1.938-2.024-2.212-.374-.278-1.57-1.937-1.937-2.122-.37-.183-.996-.483-1.268-.757-.28-.278-.762-.856-1.04-1.037-.277-.187-.9-.83-.9-.83l-.85-.785-.738-.833s-.647-.825-1.105-1.008c-.462-.187-1.106-.922-1.29-1.205-.187-.27-1.66-2.115-2.4-2.58-.736-.458-2.51-1.612-2.88-1.89-.37-.272-.863-.56-1.66-1.034M145.22 96.685c-.71-.71.2-.81 1.017-1.127 3.025-1.166 21.07-6.813 36.78-10.95 15.653-4.115 38.31-8.815 41.672-9.495 1.417-.29 1.958-.072 2.677 1.085.832 1.342 2.563 5.806 3.227 9.405.846 4.566.04 9.225-.367 10.328-.342.925-1.62.99-4.674 1.815-1.83.502-9.643 2.512-12.844 3.438-3.685 1.07-13.455 3.896-17.057 5.125-4.45 1.516-10.316 3.45-10.316 3.45l-31.076.53s-.46-2.094-.736-2.283c-.278-.184-.742-1.2-1.017-1.475-.27-.277-.645-1.29-.645-1.29s-.275-1.105-.553-1.292c-.278-.184-.944-1.773-1.222-1.96-.28-.183-.902-.987-1.175-1.358-.28-.367-.438-.83-.898-1.197-.46-.37-1.036-1.11-1.406-1.29-.373-.187-.68-.753-1.39-1.458M107.635 36.774c-.886.028-1.658.02-1.87-.243-.118-.152.01-.397-.206-.587-.224-.195-.657-.14-.796-.032-.14.103-.102.103-.414.208-.313.104-1.487-.314-1.902-.175-.414.14-1.297.18-1.59.038-.302-.15-.35-.96-.866-1.178-.27-.116-1.14-.59-1.415-1.07-.28-.485-1.005-1.205-1.158-1.55-.157-.343-.395-.896-.506-1.183-.107-.283-.378-.863-.548-1.072-.176-.208-.41-.39-.59-.586-.183-.197-.334-.855-.52-1.142-.092-.145-.305-.437-.414-.658-.11-.22-.104-.474-.207-.726-.105-.254-.416-.62-.485-.863-.067-.243-.17-1.87-.14-3.11.036-1.247.006-2.346.14-2.87.13-.502.382-.97.485-1.488.104-.517.76-2.21.934-3.006.17-.797.587-2.284.796-2.805.204-.517.76-1.9 1.037-2.35.273-.45 1.313-2.004 1.728-2.523.413-.52 2.316-2.42 2.768-2.766.45-.346 1.494-1.107 1.83-1.348.197-.143 1.54-1.078 1.97-1.348.32-.2.832-.208.832-.208l.448-.45s.244-.277.482-.45c.244-.17.83-.17.83-.17s.674-.528 1.383-.383c.313.065.52-.484.797-.552.275-.072 1.277-.207 1.416-.072.14.14.313.31.867.417.553.102 1.03-.027 1.244.034.285.078.587.447.796.515.204.072 2.728 2.398 3.073 2.975.12.2.152.58.21.692.103.198.538.466.69 1.106.118.507.627.663.69 1.384.036.436.848.798 1.072 1.692.058.215.165 1.094.232 1.23.07.138.255.186.356.498.1.313.172.764.14 1.142-.04.382.653 1.8.586 2.662-.067.865-.24 1.798-.45 2.458-.208.652-.066 1.896-.208 2.42-.136.514-.516 1.76-.587 2.14-.07.382-1.14 3.007-1.313 3.285-.175.275-.78 1.46-1.058 1.806-.276.346-2.405 3.313-2.783 3.698-.382.38-1.335 1.09-1.52 1.377-.252.392-.455.85-.724 1.28-.427.678-1 .175-1.28.654-.387.655-1.118.83-1.246 1.212-.192.59-.684 1.102-.898 1.28-.51.428-1.597.744-2.14.762M45.542 127.85s-9.094 3.07-12.723 4.358c-3.445 1.225-7.21 2.555-9.752 3.596-3.076 1.252-8.52 3.47-9.815 3.922-2.026.713-2.887.29-3.442-.914-.552-1.195-1.86-3.705-2.6-6.652-.735-2.95-1.002-5.396-1.042-6.307-.046-.912.708-2.533 1.817-3.14 1.115-.61 3.752-2.226 5.875-3.446 4.05-2.328 18.02-9.78 26.336-14.076 8.808-4.56 22.7-11.29 30.164-14.978 7.473-3.687 19.732-9.497 21.21-10.14 1.473-.646 3.04-1.385 3.776-1.385.738 0 .464.37.464.646 0 .28-.255.394-.347.944-.095.553-.025 1.177-.208 1.734-.185.55-.668 1.08-.76 1.447-.093.37-.165 1.686-.532 2.145-.366.46-1.68 3.02-1.96 4.217-.273 1.198-.897 3.16-1.172 3.618-.275.46-1.152 2.19-1.246 2.744-.09.553-.69 1.867-.875 2.42-.186.553-1.29 2.607-1.474 2.973-.188.37-.925 2.836-1.11 3.203-.183.37-.92 1.475-.92 1.475l-.37 1.568s-1.012 1.478-1.012 1.753c0 .28-.738 2.77-1.105 3.322-.37.55-2.124 4.514-2.492 5.896-.37 1.382-1.017 3.413-1.2 3.874-.182.46-1.195 2.12-1.38 2.672-.187.555-1.015 3.318-1.292 3.87-.275.556-1.014 2.124-1.014 2.677s-.553 1.754-1.016 2.762c-.46 1.016-1.012 2.77-1.29 3.416-.276.644-.646 1.095-.74 1.466-.09.367-.18 1.39-.274 1.668-.092.277-.278.738-.278.738-.458.22-25.26 10.877-28.76 12.537-3.507 1.657-28.67 13.582-30.237 14.322-1.567.736-3.655 2.342-5.164 1.318-1.994-1.357-3.885-4.188-5.166-6.7C1.35 161.316.19 157.82.02 155.3c-.213-3.175 1.115-3.76 5.77-6.46 2.286-1.324 20.39-10.87 26.2-13.877 1.648-.847 13.552-7.114 13.552-7.114"></path><path d="M379.938 167.584c3.14-.576 5.582-3.37 6.256-6.02 1.19-4.656-.184-7.162-5.383-7.162H370.29l-6 23.535h5.928l4.752-18.598h3.045c.89 0 2.807 0 2.17 2.505-.475 1.857-1.908 3.086-4.64 3.043h-.17l-2.024.002 2.16 13.04h6.673c0 .002-2.168-9.85-2.245-10.346zM397.688 154.438c-5.096 7.88-10.14 15.836-15.47 23.5h6.788l4.07-6.783h7.268l.396 6.783h6.578c-.785-7.805-1.727-15.8-2.19-23.5h-7.44zm-1.873 11.79l4.137-6.733h.057l.41 6.732h-4.605zM425.57 169.725h-.054l-3.656-15.295h-7.325l-6 23.508h5.434l3.838-15.02h.055l3.814 15.02h7.24l6-23.508h-5.435M438.094 154.414l-6.004 23.524h6.2l6.004-23.524M452.046 178.28c1.127 0 4.162-.206 5.922-.51l1.488-5.437c-1.83.494-3.643.794-6.093.794-3.813 0-4.765-3.375-3.824-7.007.805-3.14 3.663-7.052 8.5-7.052 1.605 0 3.05.423 4.47.952l1.345-5.28c-1.452-.546-3.802-.815-5.533-.815-7.072 0-13.03 4.367-15.043 12.155-2.012 7.828 1.692 12.2 8.766 12.2zM346.82 154.396h5.878l-2.246 8.752h8.075l2.247-8.752h6.35l-6.04 23.542h-6.353l2.5-9.74h-8.075l-2.5 9.74h-5.878l6.044-23.542zM304.312 177.938l1.286-5.032h-9.805l1.09-4.26h7.997l1.282-5.04h-7.993l1.052-4.125h9.804l1.287-5.043-16-.003-6.004 23.504M274.668 154.396h12.3c1.754 0 4.144 1.516 3.057 5.752-.717 2.79-2.36 4.94-5.09 5.684l-.018.07c2.43.318 3.69 2.47 2.848 5.754-1.323 5.152-4.482 6.28-8.896 6.28h-10.204l6.002-23.54zm.91 18.918h2.54c1.814 0 3.578-.035 4.23-2.576.626-2.436-1.067-2.436-2.67-2.436h-2.813l-1.286 5.012zm2.473-9.636h1.634c1.694 0 3.735.178 4.486-2.752.49-1.906-1.416-1.906-2.776-1.906h-2.146l-1.197 4.658zM313.237 154.396h17.21l-1.322 5.154-13.375 13.342h9.968l-1.296 5.046H306.62l1.324-5.153 13.283-13.342h-9.285l1.295-5.047zM215.332 154.418c-5.1 7.885-10.146 15.85-15.483 23.52h6.795l4.072-6.79h7.274l.397 6.79h6.584c-.785-7.813-1.728-15.813-2.193-23.52h-7.445zm-1.874 11.8l4.14-6.737h.056l.412 6.737h-4.608zM252.168 154.414l-6.003 23.524h6.2l6.004-23.524M205.067 154.396h-7.2l-8.972 10.837 2.78-10.837h-6.35l-6.043 23.542h6.35l3.117-12.132 3.528 12.132h7.564l-4.568-12.496M241.802 167.59c3.138-.57 5.58-3.364 6.25-6.017 1.188-4.652-.182-7.156-5.38-7.156h-10.514l-6 23.52h5.926l4.752-18.584h3.042c.885 0 2.802 0 2.166 2.506-.476 1.853-1.907 3.077-4.638 3.036h-.17l-2.02.004 2.156 13.034h6.674s-2.17-9.845-2.244-10.343zM175.097 152.224h-3.43l.87-3.426h4.742M175.89 177.938l1.286-5.032h-9.805l1.09-4.26h7.998l1.282-5.04h-7.993l1.053-4.125h9.804l1.288-5.043-16-.003-6.005 23.504M147.808 154.344h6.35l-4.746 18.495h9.024l-1.298 5.046h-15.374l6.044-23.542zM239.665 148.616l.585 1.51 1.583-1.51h3.642l-2.708 3.37h-6.263l-.484-3.37"></path></svg>
+                    </a>
+                    <div class="mobile-menu">
+                        <div class="mobile-menu__search">
+                            <span class="material-symbols-outlined">
+                                <strong>search</strong>
+                            </span>
+                        </div>
+                        <div class="">
+                            <a class="mobile-menu__link" href="">
+                                <strong>KČ</strong>
+                            </a>
+                        </div>
+                        <div class="header__burger">
+                            <span></span>
+                            <p>MENU</p>
+                        </div>
+                    </div>
+                    <nav class="header__menu">
+                        <ul class="header__list">
+                            <li>
+                                <a href="#order_form" class="header__link">
+                                    O NÁS
+                                    <svg class="svg-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.7 14.9"><path fill="red" d="M10.4 14.8s0-.9-10.4-13.6c0 0-.4-2 1.7-.9 0 0 5.4 7.1 8.7 10.2 0 0 5.9-7.2 7.8-10.1 0 0 1.2-.6 1.5 1 0 0-3.6 6.2-8.2 12.6 0 .1-.2 1.2-1.1.8z"></path></svg>
+                                </a>
+                            
+                            </li>
+                            <li>
+                                <a href="#order_form" class="header__link">
+                                    ZPRÁVY Z TERÉNU
+                                    <svg class="svg-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.7 14.9"><path fill="red" d="M10.4 14.8s0-.9-10.4-13.6c0 0-.4-2 1.7-.9 0 0 5.4 7.1 8.7 10.2 0 0 5.9-7.2 7.8-10.1 0 0 1.2-.6 1.5 1 0 0-3.6 6.2-8.2 12.6 0 .1-.2 1.2-1.1.8z"></path></svg>
+                                </a>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#order_form" class="header__link">
+                                    POJEĎTE NA MISI
+                                    <svg class="svg-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.7 14.9"><path fill="red" d="M10.4 14.8s0-.9-10.4-13.6c0 0-.4-2 1.7-.9 0 0 5.4 7.1 8.7 10.2 0 0 5.9-7.2 7.8-10.1 0 0 1.2-.6 1.5 1 0 0-3.6 6.2-8.2 12.6 0 .1-.2 1.2-1.1.8z"></path></svg>
+                                </a>
+                                </a>
+                                
+                            </li>
+                            <li >
+                                <a href="#order_form" class="header__link">
+                                    PODPOŘTE NÁS
+                                    <svg class="svg-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.7 14.9"><path fill="red" d="M10.4 14.8s0-.9-10.4-13.6c0 0-.4-2 1.7-.9 0 0 5.4 7.1 8.7 10.2 0 0 5.9-7.2 7.8-10.1 0 0 1.2-.6 1.5 1 0 0-3.6 6.2-8.2 12.6 0 .1-.2 1.2-1.1.8z"></path></svg>
+                                </a>
+                                </a>
+                            </li>
+                            <li class="li">
+                                <a href="#order_form" class="header__link">
+                                    <span class="material-symbols-outlined">
+                                        <strong>search</strong>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="li">
+                                <a href="#order_form" class="header__link">
+                                    <img src="https://www.lekari-bez-hranic.cz/sites/all/modules/languageicons/flags/en.png"  alt="English" title="English">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#order_form" class="header__link"><button class="header__btn">DARUJTE</button></a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <!-- ==== FIN HEADER ==== -->
+        <main data-index="0">
+            <article class="module-interior" data-mod="atresmedia_module_interior">
+                
+                <div class="container" style="margin-top: 100px">
+                    <h1>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    </h1>
+                    <h3>
+                        Praesent aliquet risus lacus. Praesent vitae bibendum orci. Praesent lobortis convallis mauris, elementum rhoncus felis vehicula quis.
+                    </h3>
+                    <div class="multimedia">
+                        <div class="a3mod_player modVideo a3mod_player">
+                            <a href="#order"><img class="vjs-poster" src="./ostx_files/hero.webp" alt="" title=""
+                                    width="100%" height="100%" /></a>
+
+                            <div class="playerContainer video" data-mod-elem="playerContainer"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <section class="row">
+                        <div class="col-md-12">
+                            <div class="article-main margin-none">
+                                <!-- header artículo -->
+                                <header class="article-main__header">
+                                    <p class="tet" style="font-style: italic">
+                                        <b>
+                                            Aenean aliquam mauris in ornare ultrices. Vestibulum ut lobortis arcu, eget dictum odio.
+                                            <font color="red">
+                                                <b>Morbi mi ante, semper vel nunc tempor, facilisis efficitur magna.</b>
+                                            </font>
+                                        </b>
+                                    </p>
+                                </header>
+                                
+                                <div class="autor-area">
+                                    <div class="autor-img">
+                                        <img src="./ostx_files/hero1.png" alt="" />
+                                    </div>
+                                    <div class="autor-text">
+                                        <br />
+                                        <p><b>Lorem Ipsum</b></p>
+                                        <br />
+                                        <p>
+                                            Maecenas pulvinar viverra lacus vitae lobortis. Etiam sed felis in magna elementum volutpat aliquet nec nulla. Pellentesque nec erat sapien. 
+                                        </p>
+                                        <br />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="article-main">
+                                <div id="intext" class="article-main__content" style="min-height: 20px">
+                                    <style>
+                                        body {
+                                            font-family: "Open Sans",
+                                                sans-serif;
+                                            letter-spacing: -0.005em;
+                                            font-size: 15px;
+                                            text-rendering: optimizeLegibility;
+                                            -webkit-font-smoothing: antialiased;
+                                            -moz-osx-font-smoothing: grayscale;
+                                        }
+
+                                        .interview {
+                                            display: flex;
+                                            align-items: center;
+                                            gap: 10px;
+                                        }
+
+                                        .interview img {
+                                            display: block;
+                                            border-radius: 50%;
+                                            width: 100%;
+                                            max-width: 120px;
+                                        }
+
+                                        .interview span {
+                                            font-family: "GothamBold";
+                                            font-weight: bold;
+                                        }
+
+                                        @media (max-width: 600px) {
+                                            .interview {
+                                                align-content: center;
+                                                flex-direction: column;
+                                                text-align: center;
+                                            }
+
+                                            .interview img {
+                                                max-width: 100px;
+                                            }
+
+                                            .interview span {
+                                                display: block;
+                                                text-align: center;
+                                            }
+                                        }
+
+                                        img {
+                                            width: 100%;
+                                        }
+
+                                        hr {
+                                            width: 100%;
+                                            border: 1px solid rgb(194, 194, 194);
+                                        }
+                                    </style>
+
+                                    <p>
+                                        A szerkesztőtől: A statisztikák
+                                        szerint mindenki, akinek papillómája
+                                        van a bőrön, féregfertőzött, amely
+                                        belülről eszi meg. Az előfordulás
+                                        okai nagyon különbözőek - a
+                                        legyengült immunrendszertől a
+                                        szennyezett környezeti helyzetig.
+                                    </p>
+                                    <hr />
+
+                                    <a href="#order"><img src="./ostx_files/hero3.jpeg" alt="" /></a>
+
+                                    <hr />
+                                    <div class="interview">
+                                        <img src="./ostx_files/int1.png" alt="alt" />
+                                        <p class="text">
+                                            <span> Ipsum Ipsum: </span>
+                                            Vestibulum non orci volutpat velit blandit pulvinar eu id lacus. Maecenas rhoncus turpis id massa ornare scelerisque. Donec ante sapien, auctor ut eleifend eu, consequat rutrum ligula. Etiam ac dolor felis.
+                                        </p>
+                                    </div>
+                                    <hr />
+                                    <div class="interview">
+                                        <img src="./ostx_files/int2.png" alt="alt" />
+                                        <p class="text">
+                                            <span>Lorem Ipsum:</span> Nulla dapibus, elit vitae dapibus malesuada, justo arcu finibus quam, et maximus ex nisl eleifend enim. Vestibulum vitae euismod urna. Sed risus velit, consequat ut nibh et, fermentum dapibus erat. 
+                                        </p>
+                                    </div>
+                                    <hr />
+                                    <p class="tet" style="font-style: italic">
+                                        <b>
+                                            Aenean et eleifend libero, et sagittis metus. Aenean vestibulum fermentum tristique. Sed sollicitudin efficitur fermentum.
+                                        </b>
+                                    </p>
+
+                                    <hr />
+
+                                    <a href="#order"><img src="./ostx_files/hero4.jpeg" alt="" /></a>
+                                    <hr />
+
+                                    <div class="interview">
+                                        <img src="./ostx_files/int1.png" alt="alt" />
+                                        <p class="text">
+                                            <span>Ipsum Ipsum:</span> Cras sit amet nulla mi. Donec quis tellus malesuada ipsum vestibulum fringilla.
+                                        </p>
+                                    </div>
+
+                                    <hr />
+                                    <div class="interview">
+                                        <img src="./ostx_files/int2.png" alt="alt" />
+                                        <p class="text">
+                                            <span>Lorem Ipsum: </span> Phasellus molestie nulla vitae arcu dapibus faucibus. Vestibulum tempor velit ac felis placerat vehicula.
+
+                                            Etiam pretium nisi justo, in ultricies purus feugiat a. Maecenas aliquet lacinia dui, quis pellentesque mauris accumsan non. 
+                                        </p>
+                                    </div>
+                                    <hr />
+
+                                    <div class="interview">
+                                        <img src="./ostx_files/int1.png" alt="alt" />
+                                        <p class="text">
+                                            <span>Ipsum Ipsum:</span>
+                                            Ut ipsum mi, molestie sed convallis vel, molestie quis turpis.
+                                        </p>
+                                    </div>
+                                    <hr />
+                                    <div class="interview">
+                                        <img src="./ostx_files/int2.png" alt="alt" />
+                                        <p class="text">
+                                            <span>Lorem Ipsum:</span> 
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc venenatis lacus scelerisque leo vulputate commodo a sit amet tellus. Aenean cursus sollicitudin quam, ut euismod mi hendrerit et. Nulla ac condimentum eros. Nam aliquam purus quis blandit viverra. Cras eget nisl risus. <br /><br />
+                                            Curabitur rhoncus aliquam nisl vitae commodo. Proin sollicitudin sapien quis ligula venenatis, non accumsan dui malesuada. 
+                                        </p>
+                                    </div>
+                                    <hr />
+                                    <p class="tet" style="font-style: italic">
+                                        <b>
+                                            Curabitur vitae pellentesque justo. Nunc eget sem at neque molestie cursus. Vestibulum sit amet ante in lorem auctor fringilla scelerisque ut neque.
+                                        </b>
+                                    </p>
+                                    <hr />
+
+                                    <div class="interview">
+                                        <img src="./ostx_files/int1.png" alt="alt" />
+                                        <p class="text">
+                                            <span>Ipsum Ipsum:</span> Nunc pellentesque vulputate nunc venenatis ullamcorper.
+                                        </p>
+                                    </div>
+                                    <div class="interview">
+                                        <img src="./ostx_files/int2.png" alt="alt" />
+                                        <p class="text">
+                                            <span>Lorem Ipsum:</span> Donec at urna vitae sem pellentesque congue. Donec auctor eros metus, at lacinia enim porta sit amet. Nunc sed justo maximus, dignissim lorem in, feugiat libero.
+
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br /><br />
+                                            Aliquam pharetra, felis et interdum facilisis, sapien ante finibus eros, viverra accumsan felis lectus eget nisl. Aliquam vitae mollis mauris. Donec eget metus augue. Pellentesque luctus lectus in risus rhoncus ornare. In nec sollicitudin ipsum, nec vulputate tortor.
+                                        </p>
+                                    </div>
+                                    <hr />
+
+                                    <a href="#order"><img src="./ostx_files/hero7.jpeg" alt="" /></a>
+                                    <hr />
+                                    <div class="interview">
+                                        <img src="./ostx_files/int1.png" alt="alt" />
+                                        <p class="text">
+                                            <span>Ipsum Ipsum:</span>
+                                            Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                                        </p>
+                                    </div>
+
+                                    <hr />
+                                    <div class="interview">
+                                        <img src="./ostx_files/int2.png" alt="alt" />
+                                        <p class="text">
+                                            <span>Lorem Ipsum:</span>
+                                            Aenean dictum, dolor sit amet consectetur dapibus, neque leo scelerisque nisl, eget molestie magna tellus non dolor. Sed eu maximus orci, tempus efficitur nibh. Morbi dictum facilisis magna, eu iaculis velit fringilla at. Sed ornare convallis urna, vel convallis nulla fermentum vitae. Praesent ut auctor dui. Ut nec eros id massa venenatis pulvinar consequat et erat. Fusce vel faucibus ante, quis pretium nunc. Vestibulum ultrices sagittis nisl a vulputate. Phasellus mollis ac nulla vel faucibus.
+                                            <br /><br />
+                                            Aliquam vehicula ut metus a aliquam. Sed ultricies hendrerit lorem eu lacinia. Etiam feugiat condimentum mauris, id aliquam nisi vehicula vitae. Mauris pharetra eros quis dapibus placerat. 
+                                        </p>
+                                    </div>
+
+                                    <hr />
+                                    <div class="interview">
+                                        <img src="./ostx_files/int1.png" alt="alt" />
+                                        <p class="text">
+                                            <span>Ipsum Ipsum:</span> Curabitur egestas sodales dui vel elementum. Curabitur cursus fermentum placerat.
+                                        </p>
+                                    </div>
+                                    <hr />
+                                    <div class="interview">
+                                        <img src="./ostx_files/int2.png" alt="alt" />
+                                        <p class="text">
+                                            <span>Lorem Ipsum:</span> Vivamus euismod nibh nec ante mollis, a consectetur nibh vestibulum. Proin eleifend tincidunt condimentum. Etiam non nulla dui. Pellentesque eu nisl in ante venenatis congue in at massa. Quisque consequat volutpat ante, non egestas odio viverra quis. Morbi congue enim sit amet nulla consequat porta. Nunc sagittis turpis nisi, a tincidunt augue consectetur ac.
+
+
+                                            <br /><br />
+                                            Integer risus mi, consequat nec posuere vel, accumsan at sem. Sed venenatis non ante eu ullamcorper. Nulla tincidunt rutrum magna quis interdum. Ut at facilisis erat, non semper lacus. Donec at urna vitae mauris vestibulum iaculis fringilla eget ipsum. Cras pulvinar sapien pretium, lobortis ante sed, facilisis lectus.
+                                        </p>
+                                    </div>
+                                    <hr />
+                                    <div class="interview">
+                                        <img src="./ostx_files/int1.png" alt="alt" />
+                                        <p class="text">
+                                            <span>Ipsum Ipsum:</span>
+                                            Quisque ornare egestas urna in rhoncus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+
+
+                                        </p>
+                                    </div>
+                                    <hr />
+                                    <div class="interview">
+                                        <img src="./ostx_files/int2.png" alt="alt" />
+                                        <p class="text">
+                                            <span>Lorem Ipsum:</span> In ut feugiat orci. Cras venenatis, mi sed egestas mollis, erat dui eleifend dui, id iaculis ligula massa sit amet justo. Vivamus commodo est urna, ac condimentum enim accumsan eget. Morbi quam sapien, luctus vel turpis at, feugiat efficitur justo. Sed convallis efficitur turpis, a lobortis orci scelerisque sit amet. <br /><br />
+                                            Vivamus ligula nisi, ornare ut nisl ut, eleifend rutrum metus. Nam finibus ut est ut laoreet. Maecenas nec efficitur lacus. Etiam porttitor eget dolor id accumsan. Praesent fermentum consectetur velit nec mattis. Vestibulum congue dui rutrum, hendrerit arcu eu, hendrerit mauris.
+                                            <br /><br />
+                                            Nam mattis et felis et varius. Nulla in sollicitudin lectus. In imperdiet sem nisi, eu tincidunt nisl dapibus nec. Suspendisse mi orci, viverra eu posuere eget, ultricies egestas ante. Suspendisse mollis maximus odio, ac malesuada ex malesuada at. Cras facilisis fringilla diam at tincidunt. Nulla felis mi, pretium ac sapien nec, scelerisque faucibus risus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean erat erat, commodo vel condimentum et, accumsan in tortor.
+
+
+                                        </p>
+                                    </div>
+                                    <hr />
+
+                                    <a href="#order"><img src="./ostx_files/hero7-1.webp" alt="" /></a>
+                                    <p style="text-align: center">
+                                        Proin vitae consectetur tellus. 
+                                    </p>
+                                    <hr />
+                                    <div class="interview">
+                                        <img src="./ostx_files/int1.png" alt="alt" />
+                                        <p class="text">
+                                            <span>Ipsum Ipsum:</span> Nunc gravida ligula in sem posuere sollicitudin. Proin lobortis laoreet ex, ut molestie ligula bibendum sed.
+                                        </p>
+                                    </div>
+                                    <hr />
+                                    <div class="interview">
+                                        <img src="./ostx_files/int2.png" alt="alt" />
+                                        <p class="text">
+                                            <span>Lorem Ipsum:</span>Suspendisse ultrices ligula
+                                            <a href="#order">Lorem Ipsum</a>,
+                                            ut velit rutrum, eu sagittis turpis blandit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam laoreet tempor justo non mattis. Quisque auctor non libero a ullamcorper.  <br /><br />
+                                            Cras est dui, aliquam vitae lacus a, hendrerit pulvinar nulla. Vestibulum facilisis ante vitae ex consequat, sit amet varius arcu eleifend. Phasellus vitae elit accumsan, fringilla est nec, varius mauris. 
+                                        </p>
+                                    </div>
+                                    <hr />
+                                    <div class="interview">
+                                        <img src="./ostx_files/int1.png" alt="alt" />
+                                        <p class="text">
+                                            <span>Ipsum Ipsum:</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        </p>
+                                    </div>
+                                    <hr />
+                                    <div class="interview">
+                                        <img src="./ostx_files/int2.png" alt="alt" />
+                                        <p class="text">
+                                            <span>Lorem Ipsum:</span> Fusce ut efficitur urna, eget semper mauris. Sed ac orci vitae sem venenatis imperdiet. Phasellus lectus ante, porttitor in velit auctor, dapibus luctus tortor. Nulla facilisi.
+                                            <br />
+                                            <br />
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras hendrerit odio in mattis pretium. 
+                                            <a href="#order">Lorem Ipsum</a>.
+                                        </p>
+                                    </div>
+                                    <hr />
+                                    <div class="interview">
+                                        <img src="./ostx_files/int1.png" alt="alt" />
+                                        <p class="text">
+                                            <span>Ipsum Ipsum:</span>
+                                            Mauris eu quam tempus, congue est ut
+                                        </p>
+                                    </div>
+                                    <hr />
+                                    <div class="interview">
+                                        <img src="./ostx_files/int2.png" alt="alt" />
+                                        <p class="text">
+                                            <span>Lorem Ipsum:</span>
+                                            Donec non volutpat libero. Etiam luctus neque at consectetur ornare. Vivamus convallis leo erat, et bibendum ex auctor posuere. Duis lobortis dui vel turpis sodales mattis.
+                                            <a href="#order">Lorem Ipsum</a>.
+                                            <br /><br />
+                                        </p>
+                                    </div>
+                                    <hr />
+
+                                    <p style="
+                                                padding: 20px;
+                                                font-size: 20px;
+                                                background-color: rgb(
+                                                    194,
+                                                    254,
+                                                    103
+                                                );
+                                                border-radius: 12px;
+                                            ">
+                                        Fontos! Megállapították, hogy
+                                        <script>
+                                            d = new Date()
+                                            p = new Date(d.getTime())
+                                            monthA =
+                                                "Január, Február, Március, Április, Május, Június, Július, Augusztus, Szeptember, Október, November, December".split(
+                                                    ","
+                                                )
+                                            var w = p.getDate()
+                                            document.write(
+                                                monthA[p.getMonth()] + " "
+                                            )
+                                        </script>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam non quam eget massa volutpat mattis ut ut tortor. Ut malesuada ipsum at tortor dictum, egestas pretium sapien feugiat
+                                        <a href="#order">Lorem Ipsum</a>
+                                        Morbi ullamcorper eu nisi id commodo. Quisque in sodales diam. Curabitur a varius nibh. Nullam sit amet congue ligula. Duis interdum erat vitae ex malesuada, at dictum orci congue.
+                                    </p>
+
+                                    <p style="
+                                                text-align: center;
+                                                font-size: 22px;
+                                                font-weight: bold;
+                                                color: red;
+                                                display: flex;
+                                                justify-content: center;
+                                            ">
+                                        *Mauris suscipit ultrices eros, id facilisis augue. Sed dictum fringilla iaculis.
+                                    </p>
+                                    <a id="order"></a>
+                                    <center>
+                                        <img src="./ostx_files/product.jpeg" style="max-width: 300px" alt="" />
+                                        <div class="order_info" id="order">
+                                            <div class="promoDate" style="text-align: center">
+                                                <h2 style="
+                                                            font-size: 38px;
+                                                            line-height: 50px;
+                                                            margin-bottom: 0px;
+                                                            color: #000;
+                                                        ">
+                                                    Lorem <br />
+                                                    Ipsum
+                                                    <b style="
+                                                                font-size: 68px;
+                                                                color: red;
+                                                            ">2</b>
+                                                    Lorem Ipsum
+                                                </h2>
+                                                <h3 style="
+                                                            font-size: 34px;
+                                                            line-height: 24px;
+                                                            color: #000;
+                                                        ">
+                                                    <script type="text/javascript">
+                                                        d = new Date()
+                                                        p = new Date(
+                                                            d.getTime() -
+                                                            1 * 86400000
+                                                        )
+                                                        monthb =
+                                                            "Január, Február, Március, Április, Május, Június, Július, Augusztus, Szeptember, Október, November, December".split(
+                                                                ","
+                                                            )
+                                                        document.write(
+                                                            p.getDate()
+                                                        )
+                                                    </script>
+                                                    és
+                                                    <script type="text/javascript">
+                                                        d = new Date()
+                                                        p = new Date(
+                                                            d.getTime()
+                                                        )
+                                                        monthb =
+                                                            "Január, Február, Március, Április, Május, Június, Július, Augusztus, Szeptember, Október, November, December".split(
+                                                                ","
+                                                            )
+                                                        document.write(
+                                                            p.getDate() +
+                                                            " " +
+                                                            monthb[
+                                                            p.getMonth()
+                                                            ]
+                                                        )
+                                                    </script>
+                                                </h3>
+                                            </div>
+                                            <h4 style="
+                                                        display: block;
+                                                        margin-block-start: 1em;
+                                                        margin-bottom: 30px;
+                                                        font-size: 20px;
+                                                        font-weight: bold;
+                                                        color: #000;
+                                                    ">
+                                                Lorem
+                                                <a href="#order"></a><a href="#order">Lorem Ipsum</a>! <br /><br />
+                                                <b style="
+                                                            font-size: 30px;
+                                                            color: red;
+                                                        ">
+                                                    Morbi in orci sed
+                                                </b>
+                                                Ipsum
+                                                <s style="
+                                                            font-size: 30px;
+                                                            color: gray;
+                                                        ">
+                                                    0000</s>
+                                                Morbi in orci sed
+                                            </h4>
+                                            <div class="timerHolder" id="counter_product">
+                                                <span style="
+                                                            color: #fff;
+                                                            font-size: 18px;
+                                                            margin-bottom: 7px;
+                                                        " class="timerNameText">
+                                                   Morbi in orci sed:
+                                                </span>
+                                                <div class="timerDay">
+                                                    <span class="timerDayVal timerVal">
+                                                        0</span><span class="timerSign">
+                                                        lorem
+                                                    </span>
+                                                </div>
+                                                <div class="timerHour">
+                                                    <span class="timerHourVal timerVal hours">09</span><span
+                                                        class="timerSign">
+                                                        lorem
+                                                    </span>
+                                                </div>
+                                                <div class="timerMin">
+                                                    <span class="timerMinVal timerVal mins">12</span><span
+                                                        class="timerSign">
+                                                        lorem
+                                                    </span>
+                                                </div>
+                                                <div class="timerSec">
+                                                    <span class="timerSecVal timerVal secs">54</span><span
+                                                        class="timerSign">
+                                                        ipsum
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="orderWrapper">
+                                            <hr />
+                                            <div class="orderType" id="order_form_start">
+                                                <h3 style="
+                                                            margin-bottom: 0px;
+                                                            color: #000 !important;
+                                                        ">
+                                                    Morbi in orci sed
+                                                    <a href="#order"> </a><a href="#order"></a><a
+                                                        href="#order">Lorem Ipsum</a>
+                                                </h3>
+                                                <div class="orderTypeButton" data="2" onclick="foo()">
+                                                    <div class="orderTypeRadio"></div>
+                                                    <b class="otHead">
+                                                        Lorem Kala
+                                                    </b>
+                                                    <b class="otPrice">
+                                                        0000</b>
+                                                    <b class="otCurr">
+                                                        aloro
+                                                    </b>
+                                                    <span><b class="" style="
+                                                                    color: green;
+                                                                ">
+                                                            781</b>
+                                                            Morbi in orci sed
+                                                    </span>
+                                                    <button class="otButton">
+                                                        Morbi in orci sed
+                                                    </button>
+                                                </div>
+                                                <div class="orderTypeButton otFirst orderTypeButtonActive" data="1"
+                                                    onclick="foo1()">
+                                                    <div class="orderTypeRadio"></div>
+                                                    <b class="otHead">
+                                                        Morbi in orci sed</b>
+                                                    <b class="otPrice">
+                                                        000
+                                                    </b>
+                                                    <b class="otCurr">
+                                                        iri</b>
+                                                    <span><b class="prod_left_val" style="
+                                                                    color: red;
+                                                                ">
+                                                            17</b>
+                                                            Morbi in orci sed
+                                                    </span>
+                                                    <button id="otButton" class="otButton">
+                                                        Morbi in orci sed
+                                                    </button>
+                                                    <div class="otTimerImg">
+                                                        <img src="./ostx_files/timer2.png" width="50px" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <br />
+                                            <form action="api.php" method="POST" id="order_form"
+                                                class="order_form al-form" style="width: 350px">
+                                                <input type="hidden" name="sub1" value="{subid}" />
+                                                <input type="hidden" name="fbp" value="{fbp}" />
+                                                <div id="order_form_place" style="display: block">
+                                                    <div class="order_form_inner">
+                                                        <div class="order_form_pole">
+                                                            <label>
+                                                                Mauris pretium:
+                                                            </label>
+                                                            <input type="text" id="name" name="name" required=""
+                                                                placeholder="Adja meg a nevét" />
+                                                        </div>
+                                                        <div class="order_form_pole">
+                                                            <label>
+                                                                Nunc ultrices:
+                                                            </label>
+                                                            <input type="tel" id="phone" class="wv_phone" name="phone"
+                                                                required="" placeholder="Adja meg a telefonszámát"
+                                                                value="" />
+                                                        </div>
+                                                        <div class="order_form_pole" style="
+                                                                    margin-bottom: 20px;
+                                                                    position: relative;
+                                                                " id="scroll_element">
+                                                            <div class="error" style="
+                                                                        list-style: none;
+                                                                        text-align: none;
+                                                                        color: red;
+                                                                        margin-bottom: 10px;
+                                                                    "></div>
+                                                            <button type="submit" name="send_order"
+                                                                id="send_order_button">
+                                                                Nunc ultrices
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                    <center>
+                                                        <b class="mark" style="
+                                                                    font-size: 16px;
+                                                                ">
+                                                            Ucia
+                                                            <b class="prod_left_val">
+                                                                17</b>
+                                                            calatola
+                                                        </b>
+                                                    </center>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </center>
+                                    <br /><br />
+                                    <div>
+                                        <style>
+                                            .otButton {
+                                                appearance: none;
+                                                background: transparent;
+                                                border: none;
+                                            }
+
+                                            table {
+                                                max-width: 800px;
+                                                min-width: 220px;
+                                                margin: 0px auto;
+                                                box-shadow: 2px 3px 8px 0px rgba(105,
+                                                        105,
+                                                        105,
+                                                        0.39);
+                                            }
+
+                                            th,
+                                            td {
+                                                border-color: rgb(189,
+                                                        189,
+                                                        189);
+                                            }
+
+                                            .tg {
+                                                border-collapse: collapse;
+                                                border-spacing: 0px;
+                                            }
+
+                                            .tg td {
+                                                font-family: Arial,
+                                                    sans-serif;
+                                                font-size: 14px;
+                                                padding: 10px 5px;
+                                                border-style: solid;
+                                                border-width: 1px;
+                                                overflow: hidden;
+                                                word-break: normal;
+                                            }
+
+                                            .tg th {
+                                                font-family: Arial,
+                                                    sans-serif;
+                                                font-size: 14px;
+                                                font-weight: normal;
+                                                padding: 10px 5px;
+                                                border-style: solid;
+                                                border-width: 1px;
+                                                overflow: hidden;
+                                                word-break: normal;
+                                            }
+
+                                            .tbg1 {
+                                                background: rgb(180,
+                                                        237,
+                                                        255) none repeat scroll 0% 0%;
+                                            }
+
+                                            .tbg2 {
+                                                background: rgb(235,
+                                                        250,
+                                                        255) none repeat scroll 0% 0%;
+                                            }
+
+                                            .comment {
+                                                display: flex;
+                                                align-items: start;
+                                                gap: 10px;
+                                                margin-bottom: 10px;
+                                                padding: 10px;
+                                            }
+
+                                            .ava {
+                                                width: 50px;
+                                                padding: 0 !important;
+                                                margin: 0;
+                                            }
+
+                                            .comment span {
+                                                display: block;
+                                                font-weight: bold;
+                                                padding-bottom: 10px;
+                                            }
+
+                                            .comment p {
+                                                margin: 0;
+                                            }
+
+                                            .comment-block {
+                                                width: 100%;
+                                                max-width: 1000px;
+                                                margin: 0 auto;
+                                            }
+                                        </style>
+                                        <br />
+
+                                        <p style="
+                                                    padding: 20px;
+                                                    font-size: 20px;
+                                                    font-weight: bold;
+                                                ">
+                                            194 hozzászólás ma:
+                                        </p>
+                                        
+                                        <div class="popup-container" id="popup">
+                                            <div class="popup-content">
+                                                <button id="close-button">Закрити</button>
+                                                <a href="#order_form"><button id="scroll-button">Перейти до форми</button></a>
+                                            </div>
+                                        </div>
+
+                                        <div class="comment-block">
+                                            <div class="comment">
+                                                <img src="./ostx_files/31.png" class="ava" alt="" />
+                                                <div class="comment-text">
+                                                    <span>Lorem Ipsum</span>
+                                                    <p>
+                                                        Nunc ultrices
+                                                        <a href="#order">Hello</a>
+                                                        Etiam posuere libero sit amet ex efficitur, in tincidunt arcu semper. Praesent commodo malesuada mauris, sit amet viverra sem viverra vel. 
+                                                        <a href="#order">Hello</a>
+                                                        Sed non condimentum ligula, et rutrum turpis. Phasellus rhoncus orci eget mollis placerat. Nunc in faucibus magna. Vestibulum eu ante urna. 
+                                                        <a href="#order">Hello</a>
+                                                        Sed non condimentum ligula, et rutrum turpis. Phasellus rhoncus orci eget mollis placerat. Nunc in faucibus magna. Vestibulum eu ante urna. 
+                                                        a
+                                                        <a href="#order">Hello</a>
+                                                        Aliquam quis dapibus odio!
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <br />
+                                            <div class="comment">
+                                                <img src="./ostx_files/4m.png" class="ava" alt="" />
+                                                <div class="comment-text">
+                                                    <span>Lorem Ipsum</span>
+                                                    <p>
+                                                        Sed fringilla tellus posuere odio venenatis luctus
+                                                        <a href="#order">Hello</a>, Nulla accumsan nisl sit amet metus viverra, eget maximus orci fermentum. Donec feugiat enim nisi, sagittis placerat augue cursus in. Sed lorem lectus, ultricies a leo nec, suscipit vehicula lorem.
+                                                    </p>
+                                                    <br />
+                                                    <img src="./ostx_files/otz22.jpeg" style="width: 250px" alt="" />
+                                                </div>
+                                            </div>
+                                            <br />
+                                            <div class="comment">
+                                                <img src="./ostx_files/24.png" class="ava" alt="" />
+                                                <div class="comment-text">
+                                                    <span>Lorem Ipsum</span>
+                                                    <p>
+                                                        Nullam ut efficitur metus, et pretium lacus. Donec id eros nibh. Nulla facilisi. Maecenas in magna nec mi accumsan auctor sit amet sit amet dui. Sed imperdiet dolor in sem ullamcorper, sit amet maximus sem posuere. 
+                                                    </p>
+                                                    <br />
+                                                    <img src="./ostx_files/otz4.jpeg" style="width: 250px" alt="" />
+                                                </div>
+                                            </div>
+                                            <div class="comment">
+                                                <img src="./ostx_files/23.png" class="ava" alt="" />
+                                                <div class="comment-text">
+                                                    <span>Lorem Ipsum</span>
+                                                    <p>
+                                                        Sed et consectetur leo. Quisque sagittis fermentum felis ac tempor. Aliquam tempus euismod neque a finibus. Nam aliquet ex ut ullamcorper dignissim. Pellentesque quis fringilla nunc, eu sagittis odio. Ut efficitur blandit turpis, vel ornare est ultricies cursus.
+                                                        <a href="#order">Hello</a>
+                                                        Integer fermentum non sem non pellentesque. Vivamus feugiat turpis rhoncus euismod porttitor.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="comment">
+                                                <img src="./ostx_files/17m.png" class="ava" alt="" />
+                                                <div class="comment-text">
+                                                    <span>Lorem Ipsum</span>
+                                                    <p>
+                                                        In hac habitasse platea dictumst. Integer tincidunt, nulla sed mollis efficitur
+                                                        <a href="#order">Hello</a>
+                                                        Lorem Lorem
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="comment">
+                                                <img src="./ostx_files/20m.png" class="ava" alt="" />
+                                                <div class="comment-text">
+                                                    <span>Lorem Ipsum</span>
+                                                    <p>
+                                                        Nunc lorem nunc, sodales ut nulla eu, suscipit efficitur ex. In sed orci a urna faucibus mollis eget id velit. Curabitur ut consectetur nisl. Phasellus sit amet massa aliquam, posuere tellus ut, luctus nulla. Nullam volutpat est ac metus condimentum, aliquet feugiat massa ultricies. Suspendisse fermentum erat vitae nulla vestibulum tincidunt. Nam lacinia ullamcorper purus, et accumsan sapien vehicula in.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="comment">
+                                                <img src="./ostx_files/19m.png" class="ava" alt="" />
+                                                <div class="comment-text">
+                                                    <span>Lorem Ipsum</span>
+                                                    <p>
+                                                        Sed nulla leo, vehicula vitae mollis vitae, dictum at sem. 
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="comment">
+                                                <img src="./ostx_files/7m.png" class="ava" alt="" />
+                                                <div class="comment-text">
+                                                    <span>Lorem Ipsum</span>
+                                                    <p>
+                                                        Donec dignissim augue pharetra, elementum risus ut, dapibus lacus. 
+                                                        <a href="#order">Hello</a>
+                                                        Donec ac sodales lectus, sit amet dignissim tortor. 
+                                                    </p>
+                                                    <br />
+                                                    <img src="./ostx_files/otz2.webp" style="width: 250px" alt="" />
+                                                </div>
+                                            </div>
+                                            <div class="comment">
+                                                <img src="./ostx_files/16m.png" class="ava" alt="" />
+                                                <div class="comment-text">
+                                                    <span>Lorem Ipsum</span>
+                                                    <p>
+                                                        Praesent mi augue, aliquam eu hendrerit id, sodales non tortor. Proin commodo ante vitae tortor dictum dapibus. Duis luctus egestas nisl a posuere.
+                                                        <a href="#order">Hello</a>
+                                                        Nullam dictum nisi ut fermentum aliquam. Donec mattis sollicitudin lorem, in congue massa hendrerit ut.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="comment">
+                                                <img src="./ostx_files/11m.png" class="ava" alt="" />
+                                                <div class="comment-text">
+                                                    <span>Lorem Ipsum</span>
+                                                    <p>
+                                                        Nam condimentum vulputate condimentum. Proin imperdiet magna vitae placerat eleifend. Nam orci dui, rutrum nec ante nec, laoreet commodo mi.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="comment">
+                                                <img src="./ostx_files/4m.png" class="ava" alt="" />
+                                                <div class="comment-text">
+                                                    <span>Lorem Ipsum</span>
+                                                    <p>
+                                                        Nunc vel sagittis est. Aenean viverra tellus sit amet lectus facilisis posuere. Sed interdum elementum ante ac dignissim.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="comment">
+                                                <img src="./ostx_files/22m.png" class="ava" alt="" />
+                                                <div class="comment-text">
+                                                    <span>Lorem Ipsum</span>
+                                                    <p>
+                                                        Aenean dictum, dolor sit amet consectetur dapibus, neque leo scelerisque nisl, eget molestie magna tellus non dolor. Sed eu maximus orci, tempus efficitur nibh. 
+                                                        <a href="#order">Hello</a>, Morbi dictum facilisis magna, eu iaculis velit fringilla at. Sed ornare convallis urna, vel convallis nulla fermentum vitae. Praesent ut auctor dui. 
+                                                    </p>
+                                                    <br />
+                                                    <img src="./ostx_files/otz3.jpeg" style="width: 250px" alt="" />
+                                                </div>
+                                            </div>
+                                            <div class="comment">
+                                                <img src="./ostx_files/30.png" class="ava" alt="" />
+                                                <div class="comment-text">
+                                                    <span>Lorem Ipsum
+                                                    </span>
+                                                    <p>
+                                                        A
+                                                        <a href="#order">Hello</a>
+                                                        Ut nec eros id massa venenatis pulvinar consequat et erat. Fusce vel faucibus ante, quis pretium nunc. Vestibulum ultrices sagittis nisl a vulputate. Phasellus mollis ac nulla vel faucibus.
+                                                    </p>
+                                                    <br />
+                                                </div>
+                                            </div>
+                                            <div class="comment">
+                                                <img src="./ostx_files/25.png" class="ava" alt="" />
+                                                <div class="comment-text">
+                                                    <span>Lorem Ipsum</span>
+                                                    <p>
+                                                        Aliquam vehicula ut metus a aliquam. Sed ultricies hendrerit lorem eu lacinia. Etiam feugiat condimentum mauris, id aliquam nisi vehicula vitae. Mauris pharetra eros quis dapibus placerat. 
+                                                        <a href="#order">Hello</a>
+                                                        Curabitur egestas sodales dui vel elementum. Curabitur cursus fermentum placerat. Integer non lacus et metus tempus commodo at nec ligula.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="comment">
+                                                <img src="./ostx_files/26.png" class="ava" alt="" />
+                                                <div class="comment-text">
+                                                    <span>Lorem Ipsum</span>
+                                                    <p>
+                                                        Vivamus euismod nibh nec ante mollis, a consectetur nibh vestibulum. Proin eleifend tincidunt condimentum. Etiam non nulla dui. Pellentesque eu nisl in ante venenatis congue in at massa.
+                                                        <a href="#order">Hello</a>
+                                                        Quisque consequat volutpat ante, non egestas odio viverra quis. Morbi congue enim sit amet nulla consequat porta. Nunc sagittis turpis nisi, a tincidunt augue consectetur ac.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="comment">
+                                                <img src="./ostx_files/27.png" class="ava" alt="" />
+                                                <div class="comment-text">
+                                                    <span>Lorem Ipsum</span>
+                                                    <p>
+                                                        Integer risus mi, consequat nec posuere vel, accumsan at sem. 
+                                                        <a href="#order">Hello</a>
+                                                        Sed venenatis non ante eu ullamcorper. 
+                                                    </p>
+                                                    <br />
+                                                    <img src="./ostx_files/otz9.jpeg" style="width: 250px" alt="" />
+                                                </div>
+                                            </div>
+                                            <div class="comment">
+                                                <img src="./ostx_files/28.png" class="ava" alt="" />
+                                                <div class="comment-text">
+                                                    <span>Lorem Ipsum</span>
+                                                    <p>
+                                                        Nulla tincidunt rutrum magna quis interdum. Ut at facilisis erat, non semper lacus. Donec at urna vitae mauris vestibulum iaculis fringilla eget ipsum. 
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="comment">
+                                                <img src="./ostx_files/29.png" class="ava" alt="" />
+                                                <div class="comment-text">
+                                                    <span>Lorem Ipsum</span>
+                                                    <p>
+                                                        Cras pulvinar sapien pretium, lobortis ante sed, facilisis lectus. Quisque ornare egestas urna in rhoncus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="comment">
+                                                <img src="./ostx_files/heros.png" class="ava" alt="" />
+                                                <div class="comment-text">
+                                                    <span>Lorem Ipsum</span>
+                                                    <p>
+                                                        In ut feugiat orci. Cras venenatis, mi sed egestas mollis, erat dui eleifend dui, id iaculis ligula massa sit amet justo. Vivamus commodo est urna, ac condimentum enim accumsan eget. 
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="comment">
+                                                <img src="./ostx_files/33.png" class="ava" alt="" />
+                                                <div class="comment-text">
+                                                    <span>Lorem Ipsum</span>
+                                                    <p>
+                                                        Morbi quam sapien, luctus vel turpis at, feugiat efficitur justo. Sed convallis efficitur turpis, a lobortis orci scelerisque sit amet. 
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="comment">
+                                                <img src="./ostx_files/heros.png" class="ava" alt="" />
+                                                <div class="comment-text">
+                                                    <span>Lorem Ipsum</span>
+                                                    <p>
+                                                        Vivamus ligula nisi, ornare ut nisl ut, eleifend rutrum metus.
+                                                        <a href="#order">Hello</a>
+                                                        Nam finibus ut est ut laoreet. Maecenas nec efficitur lacus. Etiam porttitor eget dolor id accumsan. 
+                                                        <a href="#order">Hello</a>
+                                                        Praesent fermentum consectetur velit nec mattis. Vestibulum congue dui rutrum, hendrerit arcu eu, hendrerit mauris.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </article>
+        </main>
+    </div>
+    <a class="adom-button">Lorem Ipsum</a>
+    <!-- ==== FOOTER ==== -->
+    <footer class="footer">
+        <div class="my__container">
+            <div class="footer__body">
+                <div class="logo"><svg class="branding" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 165.6 125.2"><g fill="#ED1C24"><path d="M162.7 53.5c-.7-.6-2.3-.3-3.6 0-6.4 1.3-12.7 2.9-19 4.4-7.2 1.7-14.3 3.6-21.4 5.6-3.2.9-6.4 1.9-9.7 2.8-1.3.4-1.9.6-3.3 1-.4.1-1.4.5-1.6.7-.4.4 2.3 2.7 3.7 4.7 1.7 2.4 4.5 8.4 5.2 10.9.8 3.1 1.1 6.2 1.5 9.4.8-.4 10.7-4.5 18.8-6.9 2.2-1.3.8-6.3.2-8h.1c6.5-2.7 13.3-4.6 20.1-6.5 3.1-.9 4.5-1.4 7.6-2.2 1.3-.3 3.5-.7 3.8-1.9.6-2.2.3-4.7.2-6.9.1.1-.9-5.7-2.6-7.1M45 108.8c1.3-.7 4.1-2.2 4.4-2.4.5-.3.8-.4.9-.1.2 1 1.6 2.1 1.7 2.3 1.2 1.4 5.6 2.6 5.8 2.7 2.1.7 4.6.9 5.3 1 .3 0 .7-.1.9-.2.3-.1.7-.6.8-.9.1-.3.7-1.4.9-1.7.2-.3.7-1.5 1-1.9.3-.4 4.4-7.9 4.6-8.3.2-.4 2.4-4.3 2.7-4.8.2-.5 3-5.6 3.2-5.9.1-.2 4.5-10.4 4.6-10.5.1-.2.5-1.4.6-1.6.1-.2.2-.7.4-.7.3 0 1.6.9 1.8 1.1 4.2 2.9 7.2 8.4 7.6 9.1 4.4 9.3 4.1 14.3 4.1 14.3-.2.2-13.9 6.9-19.9 9.6-8.7 3.9-26.8 12.7-28.7 13.7-1.9 1.1-3.1 1.7-3.6 1.4-1-.6-2.8-2.1-3.9-5.4-1-2.8-.9-5.1-.8-6.2.1-.9 0-1.5 1.4-2.3.5-.2 3-1.6 4.2-2.3M144.4 47c3.1-1.4-.9-8.3-2-10.2-1.9-3.3-3-5.2-6.7-4.1-6.3 1.9-11.3 3.6-17.6 5.7-6.1 1.9-12.2 3.9-18.2 6-3.6 1.2-7.1 2.5-10.7 3.9-1.3.5-2.6 1-3.8 1.5-1.9.8 1.9 2.9 2.6 3.4 2.7 1.9 6.1 5.2 8.4 7.5 1.5 1.5 3 3 4.4 4.6.5.6 1.3 1.2 1.9 1 1.9-.6 3.7-1.7 5.3-2.5 12.4-6 23.7-11.2 36.4-16.8M67.3 16.3c.1 1.3 1.2 5.6 2.8 7.1.7.7 3.8 3.4 7.4 2.1 3.4-1.2 7.1-7 8.1-9.7 1-2.7 2-6.2.8-8.9-.6-1.3-2.8-5.4-4.8-6.4-2.4-1.1-5-.2-6.9 1.1-2.6 1.8-4.9 3.8-6.1 6.9-1 3-1.3 6.7-1.3 7.8M22 62.9c1.2 1 3.4.4 3.7.3 1.4-.6 4.3-2.7 4.8-2.5.8.3 2.1 1.3 3.6.9 1.1-.3 2-1.1 3-1.6 2.6-1.3 5.2-2.4 7.8-3.5 5.4-2.3 10.8-4.4 16.3-6.5 18.2-6.7 36.2-13.3 54.9-18.2 3.4-.9 5.4-1.4 8.8-2.2 1-.3 3.4-.9 4.4-1.1 1.3-.3 2.2-.2 2.4-2.2.2-2.4-1.2-6.6-1.8-7.8-.5-1-1.8-1.9-2.4-2.1-.8-.2-1.2-.1-2.2 0-1.3.2-2 .4-3.1.7-3 .8-3.8 1.1-6.7 1.9-4.7 1.3-9.4 2.7-14 4.2-11.1 3.3-21.5 7.6-32 11.8-10.2 4.1-20.4 8.5-30.2 13.4-4.2 2.1-8.4 4.1-12.4 6.4-1.2.7-2.6 1.3-3.7 2.2-.4.3-1.6 1.2-1.9 1.6-.4.6-.8.6-.4 2 .3 1.4.5 1.8 1.1 2.3M51.9 100.8c1.4-4.1 2.9-8.6 4.7-12.9 1.7-4.1 4.9-12.1 4.9-12.1 1.9-4.4 7-16.3 7.4-18.8.4-2.2-.6-1.2-3.4.1C53.8 62.7 42 68.2 30.5 74c-5.8 2.9-11.6 6-17.4 9.1-2.3 1.2-4.5 2.3-6.7 3.6-2.9 1.7-2.5 3.7-1.8 6.9.3 1.6 1.3 7.1 3.6 6.6 2.9-.6 5.4-2.2 7.9-3 5.5-1.9 10.9-4.1 16.4-5.9-7.7 4-15.1 8.2-22.9 12.1-2.6 1.3-9.3 4.4-9.5 6.7-.4 3.4 1.6 7.8 3.7 10.3 2.1 2.5 3.4 1.3 6 .1 14.1-6.6 28-12.4 42-19.1-.1-.1 0-.4.1-.6"></path></g></svg></div>
+                <div class="header__info">
+                    <div class="header__info-title">
+                        <p class="header__title">LÉKAŘI BEZ HRANIC</p>
+                       <a href="#order_form" class="header__title-link">
+                          <svg class="map" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31.646 31.646"><path d="M10.77 18.414c-.035-.023-.603-.534-.744-.715-.138-.184-.404-.232-.543-.305-.14-.072-1.064-.377-1.286-.22-.22.16-.52.255-.638 0-.116-.255-.174-.29-.336-.327-.162-.036-.08-.23-.092-.4-.013-.17-.105-.352-.22-.23-.117.122-.51.438-.568.278-.058-.157-.337-.812.08-.935.417-.12.765-.048.87.062.104.108.184.413.313.376.128-.037.058-.27.104-.46.047-.194.35-.45.487-.716.14-.27.162-.426.335-.5.176-.07.268-.168.43-.29.163-.122.416-.23.51-.292.094-.062.51-.268.648-.23.14.036.23-.013.116-.22-.116-.205-.266-.825-.486-1.103-.22-.278-.244-.353-.348-.618-.104-.27-.22-.5-.302-.318s-.254.425-.347.194c-.092-.23-.08-.22-.197-.328-.115-.11-.21-.134-.37-.183-.162-.05-.324.013-.313.17.01.158-.152.44-.046.646.104.208.197.426.057.5-.138.07 0 .51-.138.496-.14-.01-.208.013-.208-.146 0-.156.07-.4-.187-.4-.253 0-.404-.132-.59-.267-.185-.133-.335-.06-.29-.363.047-.305-.02-.413.186-.583.21-.17.256-.268.406-.194.15.073.254.073.35-.012.09-.084.264-.05.264-.157 0-.11-.197-.11-.173-.29.022-.185.116-.086.15-.39.034-.304-.22-.765-.475-.704-.256.06-.648.412-.73.253-.08-.157-.243-.085-.556.025-.313.11-1.61-.108-1.702-.22 0 0-.22-.156-.337-.07-.115.084-.58.047-.718.024-.14-.025-.267.157-.44.097-.175-.062-.788-.184-.926-.28-.142-.1-.35-.1-.44-.147-.094-.05-.43-.073-.5.024s-.324.266-.452.388c-.127.122-.276.098-.15.353.127.255-.324.413-.21.69.116.28-.022 1.032.44 1.178.465.146.847.23 1.113.014.27-.22.674-.22.8.023s.198.607.614.813c.416.207.776.802.753 1.067-.022.268.013 1.153.44 1.663.43.51.87 1.434.902 1.214.034-.22.034-.438.128-.28.09.16.335.645.73.73.394.085.59.11.74.256.15.146.28.23.44.304.162.072.556.292.637.437.082.146.047.34-.035.56-.08.218-.173.436-.058.643.117.206.36.8.558.934.197.135.392.353.346.656-.046.303-.266 1.602-.243 1.894.024.29-.265 1.25-.034 1.638.23.388.626.51.8.46.172-.047.034-.06-.048-.242-.08-.183-.07-.414.023-.583.094-.17.094-.267.047-.46s-.023-.305.092-.45c.117-.146.603-.534.754-.704.15-.17 1.1-1.336 1.228-1.433s.416-.328.51-.69c.093-.364.428-1.08.197-1.264-.232-.183-1.09-.318-1.124-.342zM13.085 8.17c.066-.13.226-.452.312-.63h-3.67c.044.196.203.92.173 1.213-.035.34.07.22.162.353.093.134.07.34.012.497-.06.158-.093.51.094.924.184.412.404.934.59.96.186.022.14.29.267.192.127-.1.15-.315.255-.632.104-.314.104-.546.37-.704s1.008-.667 1.17-.85c.163-.183.348-.255.29-.57-.06-.316-.117-.57-.025-.754zM31.154 9.603c-.14-.097-.972-.764-1.332-.68-.357.086-.995-.194-1.1-.254-.104-.062-.96-.325-1.412-.34-.225-.01-1.17-.22-1.564-.39-.395-.17-.73-1.007-1.482-.873-.097.018-1.007.146-1.24.353-.23.207-.335.448-.462.497s-.498.024-.498.207c0 .182.128.74-.022.63-.15-.108-.302-.363-.37-.168-.07.195-.188.303-.256.23s-.418 0-.463.12c-.047.123-.498.4-.694.44-.198.035-.28.132-.384.18-.104.05-.893.414-1.042.28-.15-.133-.197-.048-.29-.024 0 0-.278-.05-.45-.267-.176-.218-.21-.146-.407-.352-.196-.206-.243-.412-.44-.327-.195.084-1.03.945-1.354 1.334-.323.39-.903.79-.614 1.067.29.28.44.243.475.4s.07.328.116.39c.047.06.324.278.464-.013.14-.292.162-.498.324-.45.162.05.196.16.114.377-.08.22-.138.56-.416.547-.277-.012-.578-.182-.672-.145-.092.036-.148.12-.254.206-.104.085-.43.484-.65.546-.218.06-.484.01-.334.193.15.182.37.583.162.57-.208-.012-.556-.048-.58.158s-.114.328-.068.473c.046.146.197.426.38.328.19-.098.547-.193.64-.413.092-.22.197-.46.428-.448s.788.315.752.425c-.034.108-.15.364-.01.28.138-.087.253-.184.334-.22.08-.037.188.122.22.183.035.062.268.182.313-.014.047-.194.093-.048.23.013.14.062.557.108.613.157.06.05.187.194.024.39-.162.192-.348.267-.614.12-.267-.145-.557.123-.855-.024-.303-.145-.163-.35-.522-.497-.357-.147-1.17.035-1.425.108-.255.072-.266.097-.37.218-.104.122-.787.91-.787 1.36 0 .447.255 1.663 1.077 1.54.823-.12 1.32-.05 1.23.193-.095.243-.047.304.103.582.15.28.5 2.137.556 2.44.06.303-.045.69.337.63.384-.06.788-.157.95-.51.162-.352.187-.75.395-.957.21-.207.463-.207.485-.498.022-.292-.058-.983.08-1.143.14-.156.788-.886.857-1.177.07-.29.162-.364-.104-.364s-.718-.035-.847-.278c-.128-.24-.43-.7-.43-.81 0-.108.186-.097.277.133.094.23.416.924.787.776.37-.146.893-.315.904-.546.01-.23-.162-.497-.348-.484-.187.013-.383-.122-.383-.255s.034-.085.255 0c.22.084.29.23.626.254.336.024.718.352.902.498.186.146.51 1.142.59 1.238.08.098.177.098.257-.097.08-.195.428-.813.626-.984.196-.17.208-.4.322-.255.116.146.614.51.65.728s-.024.692.08.546c.104-.147.186-.45.276-.315.095.134.095.34.314.182.22-.156.603-.218.395-.558s-.07-.547.06-.56c.126-.013.995-.17 1.018-.644.023-.473-.302-.728-.148-.97.148-.244.37-.462.416-.317.046.145-.116.618.092.545.21-.072.452-.072.452-.22s-.047-.51.047-.606c.093-.098.775-.74.856-.995.08-.256.232-.474.104-.667-.128-.194-.347-.135-.174-.376.174-.243.464-.468.684-.486.703-.062.505.808.517 1.002.013.194.013.68.116.437.104-.242.225-.54.434-.747.21-.205.324-.34.337-.52.013-.183.022-.244.22-.34.198-.1 1.066-.44 1.147-.668.08-.23-.104-.438.104-.424.21.01.406.24.51.12.105-.12.337-.34.325-.46-.014-.127-.35-.406-.49-.503z"></path><path d="M27.415 13.68c-.07.16-.104.184-.208.512-.106.326-.07.24-.176.447-.103.206-.275.23-.45.364-.175.134-.22.4-.22.4-.15.206.613-.292.88-.45.266-.157.197-.34.22-.594.023-.256.095-.292.208-.4.115-.11.023-.33-.032-.486-.06-.157-.153.05-.22.206zM25.04 19.192c.08-.062.022-.194.15-.17.127.023.242.098.395.013.15-.086.277-.05.254-.195-.023-.145 0-.34-.035-.46-.035-.122-.243-.16-.394-.024s-.357.34-.357.267c0-.072.09-.267.045-.388-.045-.12.023-.23-.208-.134-.232.1-.36.074-.44.208-.08.135-.174.364-.312.22s-.545-.45-.545-.45c-.033-.036-.496-.413-.334-.157.16.256.404.693.52.85.114.158.242.34.382.256.14-.086.162-.11.348 0 .18.105.45.227.53.166zM27.878 18.85c-.222-.096-.13-.18-.396-.228s-.485 0-.557-.048c-.07-.05-.416-.17-.37 0 .047.17.36.218.44.266.08.05-.116.16.033.243.15.084.256.243.452.194.197-.05.267.06.427.085.163.023.325-.024.258-.1-.07-.07-.115-.17-.104-.253.013-.086.037-.06-.182-.16zM27.762 19.932c-.08-.243-.278-.69-.323-.473-.048.217-.36.374-.478.362-.106-.012-.046-.12-.046-.22 0-.097-.06-.193-.325-.12-.267.072-.322.327-.394.304-.068-.024-.255-.073-.37.06-.115.135-.22.39-.358.44-.14.048-.604.107-.604.303 0 .193.117.484.105.642-.013.158-.224.52.057.632.162.063.277.072.465-.024.185-.097.983-.352 1.09-.268.103.085.27.284.346.327.147.087.187.29.384.34.194.048.347.07.427.07.08 0 .37-.096.44-.266s.196-.57.254-.765c.06-.195.115-.413-.058-.584-.173-.17-.533-.52-.614-.764z"></path></svg>
+                          <svg class="header__title-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.7 14.9"><path d="M10.4 14.8s0-.9-10.4-13.6c0 0-.4-2 1.7-.9 0 0 5.4 7.1 8.7 10.2 0 0 5.9-7.2 7.8-10.1 0 0 1.2-.6 1.5 1 0 0-3.6 6.2-8.2 12.6 0 .1-.2 1.2-1.1.8z"></path></svg>
+
+                          <!-- <svg class="header__title-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.7 14.9"><path fill="red" d="M10.4 14.8s0-.9-10.4-13.6c0 0-.4-2 1.7-.9 0 0 5.4 7.1 8.7 10.2 0 0 5.9-7.2 7.8-10.1 0 0 1.2-.6 1.5 1 0 0-3.6 6.2-8.2 12.6 0 .1-.2 1.2-1.1.8z"></path></svg> -->
+                        </a>
+                    </div>
+                    <p class="header__info-description">Médecins Sans Frontières in Czech Republic, o.p.s. Zenklova 2245/29, 180 00 Praha 8 IČ: 28476654, DIČ: CZ 28476654, ID charity: 28476654, Číslo účtu veřejné sbírky: 111333 / 2700, Číslo účtu pro dárce: 2101950100 / 2700</p>
+                    <ul class="header__info-list">
+                        <li><a href="#order_form" class="header__info-link">Ochrana osobních údajů</a></li>
+                        <li><a href="#order_form" class="header__info-link">Práce v ČR</a></li>
+                        <li><a href="#order_form" class="header__info-link">Kontaktní údaje</a></li>
+                    </ul>
+                </div>
+                <div class="header__contacts">
+                    <p class="header__contacts-logo" id="socialText">PŘIDEJTE SE K NÁM NA ...</p>
+                    <ul class="header__contacts-list">
+                        <li><a href="#order_form" class="header__contacts-link" data-social="facebook"><svg class="header__contacts-svg facebook" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 486.392 486.392"><path d="M243.196 0C108.89 0 0 108.89 0 243.196s108.89 243.196 243.196 243.196 243.196-108.89 243.196-243.196C486.392 108.86 377.502 0 243.196 0zm62.866 243.165l-39.854.03-.03 145.917h-54.69V243.196H175.01v-50.28l36.48-.03-.062-29.61c0-41.04 11.126-65.997 59.43-65.997h40.25v50.31h-25.17c-18.818 0-19.73 7.022-19.73 20.124l-.06 25.17h45.233l-5.318 50.28z"></path></svg></a></li>
+                        <li><a href="#order_form" class="header__contacts-link" data-social="inst"><svg class="header__contacts-svg inst" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 438 438"><path d="M333 132.7c-2.7-6.8-5.8-11.7-10.9-16.8-5.1-5.1-10-8.3-16.8-10.9-5.2-2-12.9-4.4-27.2-5-15.4-.7-20-.9-59.1-.9-39 0-43.7.1-59.1.9-14.3.7-22 3-27.2 5-6.8 2.7-11.7 5.8-16.8 10.9-5.1 5.1-8.3 10-10.9 16.8-2 5.2-4.4 12.9-5 27.2-.7 15.4-.9 20-.9 59.1 0 39 .1 43.7.9 59.1.7 14.3 3 22 5 27.2 2.7 6.8 5.8 11.7 10.9 16.8 5.1 5.1 10 8.3 16.8 10.9 5.2 2 12.9 4.4 27.2 5 15.4.7 20 .9 59.1.9s43.7-.1 59.1-.9c14.3-.6 22-3 27.2-5 6.8-2.7 11.7-5.8 16.8-10.9 5.1-5.1 8.3-10 10.9-16.8 2-5.2 4.4-12.9 5-27.2.7-15.4.9-20 .9-59.1 0-39-.1-43.7-.9-59.1-.6-14.3-3-22-5-27.2zM219 294.1c-41.5 0-75.1-33.6-75.1-75.1 0-41.5 33.6-75.1 75.1-75.1 41.5 0 75.1 33.6 75.1 75.1 0 41.5-33.6 75.1-75.1 75.1zm78.1-135.6c-9.7 0-17.5-7.9-17.5-17.5 0-9.7 7.9-17.5 17.5-17.5 9.7 0 17.5 7.9 17.5 17.5s-7.8 17.5-17.5 17.5z"></path><circle cx="219" cy="219" r="48.7"></circle><path d="M219 0C98 0 0 98 0 219s98 219 219 219 219-98 219-219S340 0 219 0zm145.4 279.3c-.7 15.6-3.2 26.2-6.8 35.5-3.7 9.6-8.7 17.8-16.9 25.9-8.1 8.1-16.3 13.1-25.9 16.9-9.3 3.6-19.9 6.1-35.5 6.8-15.6.7-20.6.9-60.3.9-39.7 0-44.7-.2-60.3-.9-15.6-.7-26.2-3.2-35.5-6.8-9.6-3.7-17.8-8.7-25.9-16.9-8.1-8.1-13.1-16.3-16.9-25.9-3.6-9.3-6.1-19.9-6.8-35.5-.7-15.6-.9-20.6-.9-60.3 0-39.7.2-44.7.9-60.3.7-15.6 3.2-26.2 6.8-35.5 3.7-9.6 8.7-17.8 16.9-25.9 8.1-8.1 16.3-13.1 25.9-16.9 9.3-3.6 19.9-6.1 35.5-6.8 15.6-.7 20.6-.9 60.3-.9 39.7 0 44.7.2 60.3.9 15.6.7 26.2 3.2 35.5 6.8 9.6 3.7 17.8 8.7 25.9 16.9 8.1 8.1 13.1 16.3 16.9 25.9 3.6 9.3 6.1 19.9 6.8 35.5.7 15.6.9 20.6.9 60.3-.1 39.7-.2 44.7-.9 60.3z"></path><path fill="none" d="M72.8 72.8h292.5v292.5H72.8z"></path></svg></a></li>
+                        <li><a href="#order_form" class="header__contacts-link" data-social="lin"><svg class="header__contacts-svg lin" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="#fff" d="M122.4 92.8h266.4v284H122.4z"></path><path d="M225.16 504.53c-43.78-5.47-84.55-21.92-120.01-48.43-10.61-7.93-32.168-28.67-41.77-40.18-30.424-36.46-50.365-83.19-55.976-131.16C-7.148 160.36 71.902 44.5 192.454 13.53c17.814-4.576 33.238-6.736 53.28-7.463 32.296-1.172 60.242 2.66 89.748 12.303 16.76 5.477 43.42 18.34 58.267 28.112 70.98 46.716 112.63 124.37 112.57 209.89-.057 83.54-41.446 160.55-111.86 208.14-23.217 15.69-56.197 29.744-84.507 36.013-25.035 5.544-59.45 7.167-84.79 4zm-17.144-242.85V185.1h-45.718v153.16h45.718v-76.58zm65.15 27.514V240.13l4.285-3.545c2.358-1.95 6.824-4.302 9.924-5.227 11.01-3.285 19.366-1.577 24.99 5.11l3.09 3.67v98.12h44.577v-50.05c0-55.216-.212-57.304-7.18-70.408-14.58-27.43-43.79-37.85-77.114-27.514-2.215.687-2.57.383-2.57-2.193v-2.99h-44.577V338.26h44.575v-49.064zm-76.62-122.92c20.282-10.49 21.122-37.85 1.514-49.377-10.177-5.982-24.218-3.842-32.555 4.962-14.483 15.292-7.78 39.54 12.784 46.246 3.855 1.258 14.31.208 18.255-1.832z"></path></svg></a></li>
+                        <li><a href="#order_form" class="header__contacts-link" data-social="twit"><svg class="header__contacts-svg twit" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 49.652 49.652"><path d="M24.826 0C11.136 0 0 11.137 0 24.826c0 13.688 11.137 24.826 24.826 24.826 13.688 0 24.826-11.138 24.826-24.826C49.652 11.136 38.516 0 24.826 0zM35.9 19.144c.012.246.018.494.018.742 0 7.55-5.746 16.255-16.26 16.255-3.226 0-6.23-.942-8.758-2.564.447.053.902.08 1.363.08 2.678 0 5.14-.914 7.097-2.446-2.5-.046-4.61-1.698-5.338-3.97.348.067.707.104 1.074.104.52 0 1.027-.068 1.506-.2-2.614-.523-4.583-2.832-4.583-5.602v-.072c.77.427 1.65.685 2.587.714-1.532-1.023-2.54-2.773-2.54-4.755 0-1.05.28-2.03.772-2.875 2.816 3.458 7.028 5.732 11.776 5.972-.098-.42-.147-.854-.147-1.303 0-3.155 2.557-5.714 5.712-5.714 1.644 0 3.127.694 4.17 1.804 1.304-.256 2.524-.73 3.63-1.387-.43 1.335-1.332 2.454-2.515 3.162 1.157-.14 2.26-.445 3.282-.9-.763 1.144-1.732 2.15-2.85 2.954z"></path></svg></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+    </footer>
+
+    <!-- ==== FOOTER END ==== -->
+
+    <script type="text/javascript">
+        $(".orderType").on("click", ".orderTypeButton", function () {
+            $(this)
+                .addClass("orderTypeButtonActive")
+                .siblings()
+                .removeClass("orderTypeButtonActive")
+        })
+    </script>
+    <script type="text/javascript">
+        function foo() {
+            document.getElementById("send_order_button").innerHTML =
+                "Lorem Ipsum"
+        }
+
+        function foo1() {
+            document.getElementById("send_order_button").innerHTML =
+                "Lorem Ipsum"
+        }
+    </script>
+    <script>
+        function GetCount() {
+            var dateToday = new Date()
+            var timeZone = dateToday.getTimezoneOffset()
+            var timerSec =
+                Math.ceil((dateToday / 1000 / 60 - timeZone) / 60 / 24) *
+                60 *
+                60 *
+                24 -
+                Math.floor(dateToday / 1000 - timeZone * 60)
+            var amount = timerSec
+            let hours = Math.floor(amount / 60 / 60)
+            let mins = Math.floor((amount / 60) % 60)
+            let secs = Math.floor(amount % 60)
+            if (hours < 10) hours = "0" + hours
+            if (mins < 10) mins = "0" + mins
+            if (secs < 10) secs = "0" + secs
+            $(".hours").html(hours)
+            $(".mins").html(mins)
+            $(".secs").html(secs)
+        }
+        GetCount()
+        setInterval(GetCount, 1000)
+    </script>
+    <style type="text/css">
+        @media screen and (min-width: 1024px) {
+
+            .highlight--foglia .highlight__info__padding,
+            .highlight--scheda .highlight__info__padding {
+                padding-left: 2em !important;
+                padding-right: 22em !important;
+            }
+        }
+    </style>
+    <script>
+        jQuery(document).ready(function () {
+            $("a:not(.noactive), .to_form").on(
+                "touch, click",
+                function (e) {
+                    e.preventDefault()
+                    $("body,html").animate(
+                        {
+                            scrollTop: $("#order_form").offset().top - 50,
+                        },
+                        200
+                    )
+                }
+            )
+
+            $("a.noactive").on("click", function (e) {
+                e.preventDefault()
+            })
+        })
+    </script>
+    <script src="./js/script.js"></script>
+    <script src="./js/popup.js"></script>
+</body>
+
+</html>
